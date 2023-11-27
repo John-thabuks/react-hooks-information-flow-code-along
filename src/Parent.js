@@ -12,7 +12,7 @@ function Parent() {
     setColor(newRandomColor)
     setChildrenColor(newChildColor)
   }
-
+  console.log(handleChangeColor)
   return (
     <div className="parent" style={{ backgroundColor: color }} >
       <Child color= {childrenColor} onChangeColor={handleChangeColor} />
